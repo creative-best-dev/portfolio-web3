@@ -10,11 +10,10 @@ import cls from './ParallaxVideosGroupSliders.module.scss';
 interface ParallaxVideosGroupSlidersProps {
    className?: string;
    groupOne: VideoGroup[];
-   groupTwo: VideoGroup[];
 }
 
 const ParallaxVideosGroupSliders = memo((props: ParallaxVideosGroupSlidersProps) => {
-   const { className, groupOne, groupTwo } = props;
+   const { className, groupOne } = props;
    const { scrollYProgress } = useScroll({
       offset: ['start end', 'end start'],
    });

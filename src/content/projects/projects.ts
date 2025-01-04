@@ -1,19 +1,19 @@
-import { adminPanel } from '@/content/projects/adminPanel.ts';
-import { backMyMoney } from '@/content/projects/backMyMoney.ts';
+// import { adminPanel } from '@/content/projects/adminPanel.ts';
+// import { backMyMoney } from '@/content/projects/backMyMoney.ts';
 import { blog } from '@/content/projects/blog.ts';
-import { eurotex } from '@/content/projects/eurotex.ts';
+// import { eurotex } from '@/content/projects/eurotex.ts';
 import { familyDoctor } from '@/content/projects/familyDoctor.ts';
 import { foodRate } from '@/content/projects/foodrate.ts';
-import { gameSportBet } from '@/content/projects/gamesportbet.ts';
-import { gart } from '@/content/projects/gart.ts';
+// import { gameSportBet } from '@/content/projects/gamesportbet.ts';
+// import { gart } from '@/content/projects/gart.ts';
 import { greenShop } from '@/content/projects/greenShop.ts';
-import { help } from '@/content/projects/help.ts';
+// import { help } from '@/content/projects/help.ts';
 import { honey } from '@/content/projects/honey.ts';
-import { pizza } from '@/content/projects/pizza.ts';
+// import { pizza } from '@/content/projects/pizza.ts';
 import { portfolio } from '@/content/projects/portfolio.ts';
 import { statika } from '@/content/projects/statika.ts';
 import { vignette } from '@/content/projects/vignette.ts';
-import { weather } from '@/content/projects/weather.ts';
+// import { weather } from '@/content/projects/weather.ts';
 import type { projectType } from '@/types/projectsItems.ts';
 
 export const projects: projectType[] = [

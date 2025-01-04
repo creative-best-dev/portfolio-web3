@@ -18,7 +18,7 @@ export const socials: ILinksList[] = [
    },
    {
       text: 'GitHub',
-      href: 'https://github.com/ssenick',
+      href: 'https://github.com/',
       target: '_blank',
    },
 ];

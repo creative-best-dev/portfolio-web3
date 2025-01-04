@@ -1,7 +1,7 @@
 import { memo, useContext, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 
-import { LangSwitcher } from '@/components/LangSwitcher/ui/LangSwitcher/LangSwitcher';
+// import { LangSwitcher } from '@/components/LangSwitcher/ui/LangSwitcher/LangSwitcher';
 import { classNames } from '@/helpers/classNames/classNames';
 import { MediaQueryContext } from '@/poviders/MediaQueryProvider';
 
