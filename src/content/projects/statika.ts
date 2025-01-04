@@ -2,69 +2,69 @@ import type { projectType } from '@/types/projectsItems.ts';
 
 export const statika: projectType = {
    id: 11,
-   name: 'Statika',
+   name: 'Swell Labs (DeFi)',
    year: '2022',
-   location: 'Slovakia',
-   role: 'Website Layout Developer',
-   projectURL: 'https://statika.ssenick.fun/',
-   gitURL: 'https://github.com/ssenick/statika',
+   location: 'United States',
+   role: 'Web3 Full Stack Developer',
+   projectURL: 'https://app.swellnetwork.io/',
+   gitURL: '',
    path: 'statika',
    images: {
-      preview: 'https://files.ssenick.fun/portfolio/statika/preview.webp',
+      preview: '/src/assets/images/Swell/screen (2).png',
       sliders: [
          {
-            big: 'https://files.ssenick.fun/portfolio/statika/sliders/image_1.webp',
+            big: '/src/assets/images/Swell/screen (2).png',
             small: 'https://files.ssenick.fun/portfolio/statika/sliders/image_1_small.webp',
          },
          {
-            big: 'https://files.ssenick.fun/portfolio/statika/sliders/image_2.webp',
+            big: '/src/assets/images/Swell/screen (3).png',
             small: 'https://files.ssenick.fun/portfolio/statika/sliders/image_2_small.webp',
          },
          {
-            big: 'https://files.ssenick.fun/portfolio/statika/sliders/image_3.webp',
+            big: '/src/assets/images/Swell/screen (4).png',
             small: 'https://files.ssenick.fun/portfolio/statika/sliders/image_3_small.webp',
          },
          {
-            big: 'https://files.ssenick.fun/portfolio/statika/sliders/image_4.webp',
+            big: '/src/assets/images/Swell/screen (5).png',
             small: 'https://files.ssenick.fun/portfolio/statika/sliders/image_4_small.webp',
          },
          {
-            big: 'https://files.ssenick.fun/portfolio/statika/sliders/image_5.webp',
+            big: '/src/assets/images/Swell/screen (6).png',
             small: 'https://files.ssenick.fun/portfolio/statika/sliders/image_5_small.webp',
          },
          {
-            big: 'https://files.ssenick.fun/portfolio/statika/sliders/image_6.webp',
+            big: '/src/assets/images/Swell/screen (7).png',
             small: 'https://files.ssenick.fun/portfolio/statika/sliders/image_6_small.webp',
          },
          {
-            big: 'https://files.ssenick.fun/portfolio/statika/sliders/image_8.webp',
+            big: '/src/assets/images/Swell/screen (8).png',
             small: 'https://files.ssenick.fun/portfolio/statika/sliders/image_8_small.webp',
          },
          {
-            big: 'https://files.ssenick.fun/portfolio/statika/sliders/image_7.webp',
+            big: '/src/assets/images/Swell/screen (2).png',
             small: 'https://files.ssenick.fun/portfolio/statika/sliders/image_7_small.webp',
          },
       ],
       devices: {
          laptop: {
-            big: 'https://files.ssenick.fun/portfolio/statika/laptop/laptop.webp',
+            big: '/src/assets/images/Swell/screen (2).png',
             small: 'https://files.ssenick.fun/portfolio/statika/laptop/laptop_small.webp',
          },
          tablet: {
-            big: 'https://files.ssenick.fun/portfolio/statika/tablet/tablet.webp',
+            big: '/src/assets/images/Swell/screen (2).png',
             small: 'https://files.ssenick.fun/portfolio/statika/tablet/tablet_small.webp',
          },
          mobile: [
             {
-               big: 'https://files.ssenick.fun/portfolio/statika/mobile/image_1.webp',
+               big: '/src/assets/images/Swell/photo (1).png',
                small: 'https://files.ssenick.fun/portfolio/statika/mobile/image_1_small.webp',
             },
             {
-               big: 'https://files.ssenick.fun/portfolio/statika/mobile/image_2.webp',
+               big: '/src/assets/images/Swell/photo (2).png',
                small: 'https://files.ssenick.fun/portfolio/statika/mobile/image_2_small.webp',
             },
             {
-               big: 'https://files.ssenick.fun/portfolio/statika/mobile/image_3.webp',
+               big: '/src/assets/images/Swell/photo (3).png',
                small: 'https://files.ssenick.fun/portfolio/statika/mobile/image_3_small.webp',
             },
          ],

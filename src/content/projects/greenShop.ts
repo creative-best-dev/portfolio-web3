@@ -6,8 +6,8 @@ export const greenShop: projectType = {
    year: '2023',
    location: 'Canada',
    role: 'Website Layout Developer',
-   projectURL: 'https://greenshop.ssenick.fun/',
-   gitURL: 'https://github.com/ssenick/greenshop',
+   projectURL: 'https://greenshopuzb.netlify.app',
+   gitURL: '',
    path: 'green-shop',
    images: {
       preview: 'https://files.ssenick.fun/portfolio/greenshop/preview.webp',

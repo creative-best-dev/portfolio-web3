@@ -6,8 +6,8 @@ export const adminPanel: projectType = {
    year: '2024',
    location: 'Canada',
    role: 'Frontend Developer',
-   projectURL: 'https://web-react-admin.ssenick.fun',
-   gitURL: 'https://github.com/ssenick/web-react-admin',
+   projectURL: '', //'https://web-react-admin.ssenick.fun',
+   gitURL: '', //'https://github.com/ssenick/web-react-admin',
    path: 'admin-panel',
    images: {
       preview: 'https://files.ssenick.fun/portfolio/admin/preview.webp',

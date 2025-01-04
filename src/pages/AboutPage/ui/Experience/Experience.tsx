@@ -20,12 +20,10 @@ const Experience = memo((props: ExperienceProps) => {
                className={cls.item}
                title={t('firstItemTitle')}
                description={
-                  'React, Redux Toolkit, TypeScript,' +
-                  ' JS, API Integration, UI/UX, CI/CD Pipelines,' +
-                  ' Storybook, Git, Jest, i18n, Prettier, ESLint, StyleLint'
+                  'Ethereum, Solidity, Web3.js, Ethers.js, Wagmi, CoinGecko API,  Hardhat, Infura, React.js, TypeScript, Node.js, GraphQL, Apollo, MongoDB,Google Auth, Chai, Mocha'
                }
-               company={'Freelance'}
-               period={'2024 - current'}
+               company={'Nexuspro.io'}
+               period={'Aug 2024 - Present'}
                responsibilities={t('firstItemResponsibilities')}
             />
             <div className={cls.line}></div>
@@ -34,19 +32,21 @@ const Experience = memo((props: ExperienceProps) => {
                title={t('secondItemTitle')}
                responsibilities={t('secondItemResponsibilities')}
                description={
-                  'React, Redux Toolkit, TypeScript, JS, RESTful API, Git, Storybook, CI/CD, Hasky, i18n'
+                  'Ethereum, Solidity, Web3.js, Ethers.js, Moralis, Wagmi, Truffle, Infura, React.js, TypeScript, Node.js, GraphQL, MongoDB, Chai, Mocha'
                }
-               company={'WeCan-IT'}
-               period={'2022 - 2024'}
+               company={'RociFi Labs'}
+               period={'Sep 2023 - Jun 2024'}
                position="right"
             />
             <ExperienceItem
                className={cls.item3}
                title={t('thirdItemTitle')}
                responsibilities={t('thirdItemResponsibilities')}
-               description={'HTML, CSS/SCSS, JavaScript, Responsive UX/UI, Figma, GSAP, Swiper'}
-               company={'klepka.digital'}
-               period={'2021 - 2022'}
+               description={
+                  'Solana, Rust Anchor, Smart Contracts, React.js, TypeScript, Web3.js, Wallet Integration, Solana Smart Contract, Storage Optimization, Gas Fee Reduction, Docker'
+               }
+               company={'Synesis One'}
+               period={'Oct 2022 - Aug 2023'}
             />
          </div>
       </BlockWithTitle>

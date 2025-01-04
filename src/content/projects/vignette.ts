@@ -6,8 +6,8 @@ export const vignette: projectType = {
    year: '2021',
    location: 'Hungary',
    role: 'Website Layout Developer',
-   projectURL: 'https://vignette.ssenick.fun/',
-   gitURL: 'https://github.com/ssenick/vignette',
+   projectURL: '',
+   gitURL: '',
    path: 'vignette',
    images: {
       preview: 'https://files.ssenick.fun/portfolio/vignette/preview.webp',

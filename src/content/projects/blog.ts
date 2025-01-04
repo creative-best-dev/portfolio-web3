@@ -2,7 +2,7 @@ import type { projectType } from '@/types/projectsItems.ts';
 
 export const blog: projectType = {
    id: 1,
-   name: 'RociFi',
+   name: 'RociFi(DeFi)',
    year: '2024',
    location: 'US',
    role: 'Web3 Full Stack Developer',

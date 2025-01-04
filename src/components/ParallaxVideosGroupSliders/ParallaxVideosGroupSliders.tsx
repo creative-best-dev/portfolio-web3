@@ -21,7 +21,7 @@ const ParallaxVideosGroupSliders = memo((props: ParallaxVideosGroupSlidersProps)
    return (
       <div className={classNames(cls.ParallaxVideosGroupSliders, {}, [className])}>
          <ParallaxSlider videos={groupOne} progress={scrollYProgress} />
-         <ParallaxSlider revers={true} videos={groupTwo} progress={scrollYProgress} direction={'right'} />
+         {/* <ParallaxSlider revers={true} videos={groupTwo} progress={scrollYProgress} direction={'right'} /> */}
       </div>
    );
 });

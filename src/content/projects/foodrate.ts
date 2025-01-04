@@ -6,8 +6,8 @@ export const foodRate: projectType = {
    year: '2022',
    location: 'Belarus',
    role: 'Website Layout Developer',
-   projectURL: 'https://foodrate.ssenick.fun/',
-   gitURL: 'https://github.com/ssenick/FoodRate',
+   projectURL: 'https://platerate.com/',
+   gitURL: '',
    path: 'foodrate',
    images: {
       preview: 'https://files.ssenick.fun/portfolio/foodrate/preview.webp',
