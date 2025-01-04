@@ -31,7 +31,7 @@ const Header = memo((props: HeaderProps) => {
                <MenuBtn className={cls.nav} setActiveButton={setActiveBurger} />
             ) : (
                <div className={cls.nav}>
-                  <LangSwitcher />
+                  {/* <LangSwitcher /> */}
                   <Nav location={location.pathname} />
                </div>
             )}

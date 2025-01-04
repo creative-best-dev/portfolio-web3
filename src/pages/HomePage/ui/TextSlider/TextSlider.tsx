@@ -16,8 +16,8 @@ const TextSlider = memo((props: TextSliderProps) => {
 
    return (
       <motion.div className={classNames(cls.TextSlider, {}, [className])} style={{ x }}>
-         <ImageFront className={cls.svg} />
-         <ImageFront className={cls.svg} />
+         <h1>Blockchain</h1>
+         <h1>Blockchain</h1>
       </motion.div>
    );
 });

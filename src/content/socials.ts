@@ -3,7 +3,7 @@ import type { ILinksList } from '@/components/LinksList/LinksList.tsx';
 export const socials: ILinksList[] = [
    {
       text: 'Instagram',
-      href: 'https://www.instagram.com/senchenkoruslan',
+      href: 'https://www.instagram.com/TanRuven',
       target: '_blank',
    },
    {
@@ -13,7 +13,7 @@ export const socials: ILinksList[] = [
    },
    {
       text: 'Linkedin',
-      href: 'https://www.linkedin.com/in/ruslan-senchenko',
+      href: 'https://www.linkedin.com/in/Ruven-Tan',
       target: '_blank',
    },
    {

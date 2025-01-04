@@ -1,6 +1,7 @@
 .Header {
-  padding: clamp(0.75rem, 0.28rem + 2.35vw, 4.688rem);
-
+  padding: 1%;
+  background-color: var(--color-black);
+  color: white !important;
   .wrapper {
     display: flex;
     align-items: center;
@@ -11,6 +12,7 @@
     display: flex;
     align-items: center;
     margin-left: auto;
+    color: white!important;
   }
 
   ul {

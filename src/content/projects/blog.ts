@@ -2,69 +2,69 @@ import type { projectType } from '@/types/projectsItems.ts';
 
 export const blog: projectType = {
    id: 1,
-   name: 'Blog',
+   name: 'RociFi',
    year: '2024',
-   location: 'Canada',
-   role: 'Frontend Developer',
-   projectURL: 'https://dulcet-pudding-009166.netlify.app',
-   gitURL: 'https://github.com/ssenick/web-mini-project',
-   path: 'blog',
+   location: 'US',
+   role: 'Web3 Full Stack Developer',
+   projectURL: 'https://roci.fi',
+   gitURL: '',
+   path: 'RociFi',
    images: {
-      preview: 'https://files.ssenick.fun/portfolio/blog/preview.webp',
+      preview: '/src/assets/images/Rocifi/preview.png',
       sliders: [
          {
-            big: 'https://files.ssenick.fun/portfolio/blog/sliders/image_1.webp',
+            big: '/src/assets/images/Rocifi/screen (1).png',
             small: 'https://files.ssenick.fun/portfolio/blog/sliders/image_1_small.webp',
          },
          {
-            big: 'https://files.ssenick.fun/portfolio/blog/sliders/image_2.webp',
+            big: '/src/assets/images/Rocifi/screen (2).png',
             small: 'https://files.ssenick.fun/portfolio/blog/sliders/image_2_small.webp',
          },
          {
-            big: 'https://files.ssenick.fun/portfolio/blog/sliders/image_3.webp',
+            big: '/src/assets/images/Rocifi/screen (3).png',
             small: 'https://files.ssenick.fun/portfolio/blog/sliders/image_3_small.webp',
          },
          {
-            big: 'https://files.ssenick.fun/portfolio/blog/sliders/image_4.webp',
+            big: '/src/assets/images/Rocifi/screen (4).png',
             small: 'https://files.ssenick.fun/portfolio/blog/sliders/image_4_small.webp',
          },
          {
-            big: 'https://files.ssenick.fun/portfolio/blog/sliders/image_5.webp',
+            big: '/src/assets/images/Rocifi/screen (5).png',
             small: 'https://files.ssenick.fun/portfolio/blog/sliders/image_5_small.webp',
          },
          {
-            big: 'https://files.ssenick.fun/portfolio/blog/sliders/image_6.webp',
+            big: '/src/assets/images/Rocifi/screen (6).png',
             small: 'https://files.ssenick.fun/portfolio/blog/sliders/image_6_small.webp',
          },
          {
-            big: 'https://files.ssenick.fun/portfolio/blog/sliders/image_7.webp',
+            big: '/src/assets/images/Rocifi/screen (3).png',
             small: 'https://files.ssenick.fun/portfolio/blog/sliders/image_7_small.webp',
          },
          {
-            big: 'https://files.ssenick.fun/portfolio/blog/sliders/image_8.webp',
+            big: '/src/assets/images/Rocifi/screen (4).png',
             small: 'https://files.ssenick.fun/portfolio/blog/sliders/image_8_small.webp',
          },
       ],
       devices: {
          laptop: {
-            big: 'https://files.ssenick.fun/portfolio/blog/laptop/laptop.webp',
+            big: '/src/assets/images/Rocifi/screen (3).png',
             small: 'https://files.ssenick.fun/portfolio/blog/laptop/laptop_small.webp',
          },
          tablet: {
-            big: 'https://files.ssenick.fun/portfolio/blog/tablet/tablet.webp',
+            big: '/src/assets/images/Rocifi/screen (1).png',
             small: 'https://files.ssenick.fun/portfolio/blog/tablet/tablet_small.webp',
          },
          mobile: [
             {
-               big: 'https://files.ssenick.fun/portfolio/blog/mobile/mobile_1.webp',
+               big: '/src/assets/images/Rocifi/phone (1).png',
                small: 'https://files.ssenick.fun/portfolio/blog/mobile/mobile_1_small.webp',
             },
             {
-               big: 'https://files.ssenick.fun/portfolio/blog/mobile/mobile_2.webp',
+               big: '/src/assets/images/Rocifi/phone (2).png',
                small: 'https://files.ssenick.fun/portfolio/blog/mobile/mobile_2_small.webp',
             },
             {
-               big: 'https://files.ssenick.fun/portfolio/blog/mobile/mobile_3.webp',
+               big: '/src/assets/images/Rocifi/phone (3).png',
                small: 'https://files.ssenick.fun/portfolio/blog/mobile/mobile_3_small.webp',
             },
          ],

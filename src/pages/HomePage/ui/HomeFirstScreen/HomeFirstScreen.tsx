@@ -3,6 +3,7 @@ import { memo, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 
 import ImageMe from '@/assets/images/me_half.webp';
+import BackImg from '@/assets/images/back1.webp'
 import ImageMeSmall from '@/assets/images/me_half_small.webp';
 import { AppImage } from '@/components/UI/AppImage/AppImage';
 import { classNames } from '@/helpers/classNames/classNames';
@@ -30,6 +31,14 @@ const HomeFirstScreen = memo((props: HomeFirstScreenProps) => {
 
    return (
       <div ref={ref} className={classNames(cls.HomeFirstScreen, {}, [className])}>
+         <motion.div style={{ y: valueMove, opacity: valueOpacity }} className={cls.image}>
+            <AppImage
+               className={classNames(cls.img, {}, [cls.back])}
+               src={BackImg}
+               spare={ImageMeSmall}
+               loading="lazy"
+            />
+         </motion.div>
          <Header />
          <TextSlider />
          <motion.div style={{ y: valueMove, opacity: valueOpacity }} className={cls.image}>
@@ -43,10 +52,10 @@ const HomeFirstScreen = memo((props: HomeFirstScreenProps) => {
          <div className={cls.wrapper}>
             <motion.div style={{ y: valueMoveText }} className={cls.main}>
                <h5>
-                  {t('Ruslan')} {t('Senchenko')}
+                  {t('Ruven')} {t('Tan')}
                </h5>
-               <h1>{t('Frontend Developer')}</h1>
-               <h3>{t('Frontend description')}</h3>
+               <h1>{t('Full Stack Blockchain Developer')}</h1>
+            <h3>{t('Blockchain description')}</h3>
             </motion.div>
          </div>
       </div>

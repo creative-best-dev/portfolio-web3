@@ -19,8 +19,8 @@ const NavToHome = memo(() => {
                   {/* eslint-disable i18next/no-literal-string */}
                   <h5 className={cls.code}>Code by</h5>
                   <span className={cls.name}>
-                     <h5>{t('Ruslan')}</h5>
-                     <h5>{t('Senchenko')}</h5>
+                     <h5>{t('Ruven')}</h5>
+                     <h5>{t('Tan')}</h5>
                   </span>
                </div>
             </div>

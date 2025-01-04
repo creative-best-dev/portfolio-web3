@@ -4,6 +4,7 @@
   height: calc(var(--vh, 1vh) * 100);
   will-change: height;
   overflow: hidden;
+  color: white;
 
   @media (max-width: 772px) {
     transition: height 0.2s;
@@ -20,17 +21,23 @@
     .img {
       position: absolute;
       width: auto;
-      height: 90%;
+      height: 80%;
       bottom: 0;
       right: 0;
       object-fit: cover;
       transform: translate(0%, 0%);
       filter: grayscale(0.1) brightness(1.1);
-      opacity: 0.9;
+      opacity: 1;
 
       &.dark {
         filter: grayscale(0.3) brightness(0.6);
       }
+      &.back {
+        min-height: 100vh;
+        width:100%;
+        opacity: 0.9;
+      }
+      
 
       @media (max-width: 772px) {
         height: 80%;
@@ -40,18 +47,22 @@
 
   .wrapper {
     position: absolute;
-    bottom: 10%;
-    padding: var(--p-container);
+    bottom: 1%;
+    margin: var(--p-container);
+    padding: 1rem;
     max-width: 50%;
+    background-color: rgba(51,102,153,0.7);
 
     .main {
       display: grid;
       gap: 11px;
+      
 
       h5 {
         font-size: var(--h5-font-size);
         text-transform: uppercase;
         letter-spacing: 4px;
+        
       }
 
       h1 {

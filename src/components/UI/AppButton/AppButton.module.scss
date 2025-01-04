@@ -1,6 +1,7 @@
 .AppButton {
   &.clear {
     border-radius: 2.125em;
+    color: var(--color-white);
 
     .Button {
       border-radius: 2.125em;
@@ -17,6 +18,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        color: white;
       }
     }
   }
@@ -92,7 +94,7 @@
       align-items: center;
       padding: clamp(0.625rem, 0.55rem + 0.37vw, 1.25rem);
       cursor: pointer;
-      color: var(--color-black);
+      color: var(--color-white);
 
       .children {
         display: flex;
@@ -102,7 +104,7 @@
         &::before {
           content: "";
           border-radius: 50%;
-          background-color: var(--color-black);
+          background-color: var(--color-white);
           width: calc(clamp(16px, 1.2vw, 19px) / 2.75);
           height: calc(clamp(16px, 1.2vw, 19px) / 2.75);
         }

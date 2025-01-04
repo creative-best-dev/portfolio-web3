@@ -5,11 +5,11 @@
   position: absolute;
   left: 0;
   flex-wrap: nowrap;
-  width: 100%;
+  // width: 100%;
   height: 100%;
   will-change: transform;
   pointer-events: none;
-  min-width: 1200px;
+  min-width: 10rem;
 
   .svg {
     flex: 0 0 100%;
@@ -19,5 +19,19 @@
     filter: var(--drop-shadow);
     height: 100%;
     padding-right: 5%;
+  }
+  h1{
+    top: 40%;
+    flex: 0 0 100%;
+    font-size: 20rem;
+    font-weight: 1000;
+    white-space: nowrap;
+    width: 100%;
+    // padding: 20% 0 ;
+
+    filter: blur(0.5px);
+    opacity: 0.3;
+    margin: auto;
+    color: #33ccff;
   }
 }

@@ -33,7 +33,7 @@ const PageTransition = memo((props: PageTransitionProps) => {
             if (!filterValue) return routeConfig[route]?.path === cleanPath;
          });
          if (inited) {
-            return 'RUSLAN SENCHENKO';
+            return 'Ruven Tan';
          }
          if (values) {
             return values;
