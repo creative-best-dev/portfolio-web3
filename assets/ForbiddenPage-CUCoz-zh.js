@@ -1,1 +1,0 @@
-import{j as s,c as o}from"./index-DpMWlw7G.js";import{P as d}from"./Page-DVdyJz7l.js";import"./Header-B5BOSF-Z.js";const r="_ForbiddenPage_1qhhj_1",n={ForbiddenPage:r},i=e=>{const{className:a}=e;return s.jsx(d,{className:o(n.ForbiddenPage,{},[a]),children:"ForbiddenPage"})};i.displayName="ForbiddenPage";export{i as default};
